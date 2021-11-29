@@ -22,7 +22,7 @@ btn.addEventListener("click", () => {
 
             //appending data to HTML
             let realData = Qdata
-            document.getElementById("img").innerHTML = ` <img src="${realData.message}"></img> `
+            document.querySelector(".img").innerHTML = ` <img src="${realData.message}"></img> `
 
 
             //Error Handling
